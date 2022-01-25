@@ -1,13 +1,12 @@
-site_name: Raspbian Addons
-site_url: https://ryanfortner.github.io/mkdocs-material
+site_name: Ryan Fortner
+site_url: https://ryanfortner.github.io
 site_author: Ryan Fortner
 site_description: >-
-  Legendary extra APT repository for Raspberry Pies, containing open-source ARM software.
-Supports both 32 and 64 bit Debian-based operating systems.
+  My personal site.
 
 # Repository
-repo_name: ryanfortner/mkdocs-material
-repo_url: https://github.com/ryanfortner/mkdocs-material
+repo_name: ryanfortner/ryanfortner.github.io
+repo_url: https://github.com/ryanfortner/ryanfortner.github.io
 edit_uri: ""
 
 # Copyright
@@ -15,8 +14,7 @@ copyright: Copyright &copy; 2016 - 2022 Ryan Fortner
 
 # Configuration
 theme:
-  name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
+  name: material
 
   # Static files
   static_templates:
