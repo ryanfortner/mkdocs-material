@@ -66,13 +66,6 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        changelog/insiders.md: insiders/changelog.md
-        reference/meta-tags.md: reference/index.md
-        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        sponsorship.md: insiders/index.md
-        upgrading.md: upgrade.md
   - minify:
       minify_html: true
 
@@ -110,7 +103,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
+      user: ryanfortner
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -174,11 +167,6 @@ nav:
     - Images: reference/images.md
     - Lists: reference/lists.md
     - MathJax: reference/mathjax.md
-  - Insiders:
-    - insiders/index.md
-    - Getting started:
-      - Installation: insiders/getting-started.md
-      - Changelog: insiders/changelog.md
   - Blog:
     - blog/index.md
     - 2021:
