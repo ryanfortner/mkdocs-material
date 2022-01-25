@@ -14,7 +14,8 @@ copyright: Copyright &copy; 2016 - 2022 Ryan Fortner
 
 # Configuration
 theme:
-  name: material
+  name: 'material'
+  custom_dir: overrides
 
   # Static files
   static_templates:
